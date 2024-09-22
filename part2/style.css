@@ -11,7 +11,11 @@ html,body{
 	color: white;
 }
 
-#page1{
+body{
+	overflow-x: hidden;
+}
+
+/* #page1{
 	height: 100%;
 	width: 100%;
 	background-color: lightblue;
@@ -27,6 +31,24 @@ html,body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	gap: 50px;
+}
+
+h1{
+	font-size: 50px;
+	position: relative;
+	background-color: red;
+	padding: 5px;
+    white-space: nowrap;
+}
+
+h2{
+	font-size: 40px;
+	position: relative;
+	background-color: red;
+	padding: 5px;
+    white-space: nowrap;
 }
 
 #page3{
@@ -43,4 +65,29 @@ html,body{
 	height: 250px;
 	width: 250px;
 	background-color: crimson;
+} */
+ 
+/* GSAP */
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(90, 150, 169);
+	color: black;
+	
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1{
+	font-size: 30vw;
+	text-transform: uppercase;
 }
